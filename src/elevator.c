@@ -154,7 +154,7 @@ void elevator_tick()
                 }
                 else if (doorDirection == -1)
                 {
-                        if ((doorPosition == 4) && (cabDirection = -1) && obstructed)
+                        if ((doorPosition == 4) && (cabDirection == -1) && obstructed)
                         {
                                 // stop moving the door
                         }
